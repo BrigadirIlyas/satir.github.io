@@ -1,0 +1,312 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: "Montserrat", "italic", sans-serif;
+  color: #ffffff;
+}
+.menu {
+  float: right;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #54bab9;
+  z-index: 2;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+a.tbl {
+  background: #ffb26b;
+  border-radius: 20px;
+  margin-top: 20;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl:hover {
+  background: #567189;
+  text-decoration: none;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #ffb26b;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ffb26b;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-re {
+  background: #567189;
+  border-radius: 20px;
+  margin-top: 20;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-re:hover {
+  background: #ffb26b;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+}
+
+.img-abt-hme {
+  float: left;
+  margin-right: 30px;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+
+.tengah {
+  text-align: center;
+}
+
+
+
+.list-admin {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex: wrap;
+}
+
+.kartu-admin {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.kartu-admin img {
+  width: 80%;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.kotak2 {
+  border-radius: 25px;
+  border: 2px solid #a0a0a0;
+  background: #ffffff;
+  width: auto;
+  height: 320px;
+  margin: 10px;
+  position: relative;
+  
+}
+
+.kotak2 img {
+  margin-left: auto;
+  margin-right:  auto;
+}
+
+.kotak2 p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #ffb26b;
+
+}
+
+.kotak {
+  border-radius: 25px;
+  border: 2px solid #a0a0a0;
+  background: #ffffff;
+  width: auto;
+  height: 320px;
+  margin: 10px;
+  position: relative;
+  
+}
+
+.kotak img {
+  margin-left: auto;
+  margin-right:  auto;
+}
+
+.kotak p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #ffb26b;
+
+}
+
+#contact {
+  background-color: #567189;
+  padding: 50px, 0px, 50px, 0px;
+}
+
+.footer {
+  width: 100;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+
+}
+
+h3 {
+  font-family: 'comic sans ms';
+  color: #ffffff;
+  font-weight: 800px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  line-height: 50px;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 20px;
+}
+
+.tombol-menu {
+  position: absolute;
+  top: 1.7rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.tombol-menu .garis {
+  height: 3px;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  nav .menu ul {
+    display: none;
+    margin-top: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .menu ul li {
+  width: 100%;
+  border-bottom: 1px solid #ffb26b;
+  background-color: #ffffff;
+  line-height: 60px;
+  }
+
+  nav .menu ul li a {
+    color: #567189;
+  }
+
+  .tombol-menu {
+    display: flex;
+  }
+
+  section {
+    display: block;
+  }
+
+  section img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.kartu-admin {
+  width: 100%;
+}
+
+.kotak {
+  height: auto;
+}
+
+.kotak img{
+  display: flexbox;
+}
+.kotak2 {
+  height: auto;
+}
+
+nav .menu a.tbl {
+  color: #ffffff;
+}
+
+}
